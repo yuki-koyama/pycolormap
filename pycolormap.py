@@ -1044,9 +1044,17 @@ _github_table = [
     (0.098039, 0.380392, 0.152941),
 ]
 
+_map_from_name_to_table = {
+    "magma": _magma_table,
+    "inferno": _inferno_table,
+    "plasma": _plasma_table,
+    "viridis": _viridis_table,
+    "github": _github_table,
+}
 
-def get_color(x):
-    colors = _viridis_table
+
+def get_color(x, type="viridis"):
+    colors = _map_from_name_to_table[type]
 
     a = x * (len(colors) - 1)
     t = a - math.floor(a)

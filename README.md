@@ -12,10 +12,10 @@ If you do not want to use Matplotlib for some reasons, then this library is prob
 
 ## Matplotlib
 
-- Magma
-- Inferno
-- Plasma
-- Viridis
+- `magma`
+- `inferno`
+- `plasma`
+- `viridis`
 
 These colormaps are designed to be perceptually uniform (even in black-and-white printing) and friendly to colorblindness.
 
@@ -25,6 +25,6 @@ Reference: https://bids.github.io/colormap/
 
 ## GitHub
 
-- GitHub
+- `github`
 
 This colormap is designed to mimic the color scheme used in GitHub contributions visualization.
