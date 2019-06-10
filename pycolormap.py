@@ -1,6 +1,6 @@
 import math
 
-github = [
+_github_colors = [
     (0.933333, 0.933333, 0.933333),
     (0.776470, 0.894117, 0.545098),
     (0.482352, 0.788235, 0.435294),
@@ -10,7 +10,7 @@ github = [
 
 
 def get_color(x):
-    colors = github
+    colors = _github_colors
 
     a = x * (len(colors) - 1)
     t = a - math.floor(a)
