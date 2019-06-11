@@ -28,3 +28,11 @@ Reference: https://bids.github.io/colormap/
 - `github`
 
 This colormap is designed to mimic the color scheme used in GitHub contributions visualization.
+
+# License
+
+MIT License
+
+# Related Repositories
+
+- tinycolormap <https://github.com/yuki-koyama/tinycolormap>
